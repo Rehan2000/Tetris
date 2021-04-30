@@ -61,7 +61,6 @@ class gamemodel {
             this.fallingPiece.renderPiece()
 
         }
-        console.log(""+this.grid)
     }
 
 
@@ -88,9 +87,9 @@ class gamemodel {
 
             // check game over 
             if (this.fallingPiece.y == 0) {
-                
+
                 location.reload();
-               // this.grid = this.makeStartingGrid()
+                // this.grid = this.makeStartingGrid()
                 alert("Game over!")
 
 
