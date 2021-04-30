@@ -56,7 +56,7 @@ function newfallingpiece() {
     y = model.fallingPiece.y
     x = model.fallingPiece.x;
     // console.log(!collision(x, y, shape));
-    goai()
+   
 }
 function goai() {
     /*  for (var h = 0; h < 4; h++) {
